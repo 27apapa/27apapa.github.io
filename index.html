@@ -2,6 +2,26 @@
 <html>
 <body>
 <h1>WARNING</h1>
-<h1>This is a computer virus. Please restart your computer in the next five seconds to prevent from contamination.<h1>
+<h1>Welcome to the random nuber generator. Most code has been produced from slack overflow..<h1>
 </body>
+<html>
+    <head>
+        <script src="https://randojs.com/1.0.0.js"></script>
+        <script>
+            function showRandomNumber(){
+                document.getElementById("myNumber").innerHTML = rando(5, 10);
+            }
+        </script>
+        <style>
+            #myNumber{
+                font-size:100px;
+                text-align:center;
+                margin:50px auto;
+                font-family:Arial, sans-serif;
+            }
+        </style>
+    </head>
+    <body onload="showRandomNumber();">
+        <div id="myNumber"></div>
+    </body>
 </html>
